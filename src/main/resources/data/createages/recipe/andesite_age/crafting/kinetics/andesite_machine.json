@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "createages:andesite_mechanism"
+    },
+    "B": {
+      "item": "create:andesite_casing"
+    }
+  },
+  "result": {
+    "id": "createages:andesite_machine",
+    "count": 1
+  }
+}

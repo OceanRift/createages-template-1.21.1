@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "createages",
+  "category": "misc",
+  "pattern": [
+    "B",
+    "A",
+    "C"
+  ],
+  "key": {
+    "A": {
+      "item": "create:item_vault"
+    },
+    "B": {
+      "tag": "c:slimeballs"
+    },
+    "C": {
+      "item": "createages:andesite_mechanism"
+    }
+  },
+  "result": {
+    "id": "create:package_frogport",
+    "components": {},
+    "count": 1
+  }
+}

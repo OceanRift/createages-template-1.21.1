@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "createages",
+  "category": "misc",
+  "pattern": [
+    "AA",
+    "KK"
+  ],
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "K": {
+      "item": "createages:cured_rubber"
+    }
+  },
+  "result": {
+    "id": "create:andesite_tunnel",
+    "components": {},
+    "count": 2
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "createages:brass_machine"
+    },
+    "C": {
+      "item": "createages:copper_machine"
+    },
+    "P": {
+      "item": "createages:andesite_machine"
+    }
+  },
+  "pattern": [
+    "P",
+    "A",
+    "C"
+  ],
+  "result": {
+    "count": 1,
+    "id": "create:steam_engine"
+  }
+}

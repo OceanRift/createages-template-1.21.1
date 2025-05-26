@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "createages:andesite_machine"
+  },
+  "addition": {
+    "tag": "minecraft:stone_crafting_materials"
+  },
+  "template": {
+    "item": "create:turntable"
+  },
+  "result": {
+    "id": "create:millstone",
+    "count": 1
+  }
+}

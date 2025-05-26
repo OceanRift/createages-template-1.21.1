@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "createages",
+  "category": "misc",
+  "pattern": [
+    "A",
+    "K"
+  ],
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "K": {
+      "item": "createages:cured_rubber"
+    }
+  },
+  "result": {
+    "id": "create:andesite_funnel",
+    "components": {},
+    "count": 2
+  }
+}

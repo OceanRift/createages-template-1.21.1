@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "createages",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "SCS",
+    " S "
+  ],
+  "key": {
+    "C": {
+      "item": "createages:andesite_mechanism"
+    },
+    "S": {
+      "tag": "c:plates/iron"
+    }
+  },
+  "result": {
+    "id": "create:propeller",
+    "components": {},
+    "count": 1
+  }
+}

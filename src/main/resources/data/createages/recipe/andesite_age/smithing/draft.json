@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "createages:andesite_machine"
+  },
+  "addition": {
+    "item": "create:propeller"
+  },
+  "template": {
+    "item": "create:turntable"
+  },
+  "result": {
+    "id": "create:encased_fan",
+    "count": 1
+  }
+}

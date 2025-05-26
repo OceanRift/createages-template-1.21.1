@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "create:copper_casing"
+    },
+    "C": {
+      "item": "create:fluid_pipe"
+    },
+    "P": {
+      "item": "create:copper_sheet"
+    },
+    "R": {
+      "item": "createages:cured_rubber"
+    }
+  },
+  "pattern": [
+    "RPR",
+    "CAC",
+    "RPR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "createages:copper_mechanism"
+  }
+}

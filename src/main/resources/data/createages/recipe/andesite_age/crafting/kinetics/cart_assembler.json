@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "createages",
+  "category": "misc",
+  "pattern": [
+    "CRC",
+    "L L"
+  ],
+  "key": {
+    "C": {
+      "item": "create:andesite_alloy"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "R": {
+      "item": "createages:andesite_mechanism"
+    }
+  },
+  "result": {
+    "id": "create:cart_assembler",
+    "components": {},
+    "count": 1
+  }
+}

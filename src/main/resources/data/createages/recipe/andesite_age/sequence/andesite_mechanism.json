@@ -1,0 +1,92 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:andesite_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "createages:andesite_mechanism"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_andesite_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_andesite_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_andesite_mechanism"
+        },
+        {
+          "item": "create:cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_andesite_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_andesite_mechanism"
+        },
+        {
+          "item": "create:large_cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_andesite_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_andesite_mechanism"
+        },
+        {
+          "item": "create:andesite_casing"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_andesite_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_andesite_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_andesite_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createages:incomplete_andesite_mechanism"
+  }
+}

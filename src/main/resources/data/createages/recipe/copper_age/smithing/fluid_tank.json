@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "createages:copper_machine"
+  },
+  "addition": {
+    "tag": "c:barrels/wooden"
+  },
+  "template": {
+    "item": "create:turntable"
+  },
+  "result": {
+    "id": "create:fluid_tank",
+    "count": 1
+  }
+}

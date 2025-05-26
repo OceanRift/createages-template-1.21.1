@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "createages",
+  "category": "misc",
+  "pattern": [
+    "aca",
+    "dbd",
+    "aca"
+  ],
+  "key": {
+    "a": {
+      "item": "create:cogwheel"
+    },
+    "b": {
+      "item": "create:andesite_casing"
+    },
+    "c": {
+      "item": "create:andesite_alloy"
+    },
+    "d": {
+      "item": "create:shaft"
+    }
+  },
+  "result": {
+    "id": "createages:andesite_mechanism",
+    "components": {},
+    "count": 1
+  }
+}

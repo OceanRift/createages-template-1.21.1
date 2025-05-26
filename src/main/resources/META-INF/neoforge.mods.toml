@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT License"
+
+[[mods]]
+modId="createages"
+version="0.1.0"
+displayName="Create: Ages"
+authors="RiftX666"
+description='''Adds progression stages to Create through mechanism ages. Turn default Create crafting into an evolutionary journey through Andesite, Copper, and Brass Ages.'''
+
+[[dependencies.createages]]
+modId="neoforge"
+mandatory=true
+versionRange="[21.1.169,)" # Изменено с [21.5.66-beta,) на [21.1.169,)
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.createages]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.createages]]
+modId="create"
+mandatory=true
+versionRange="[0.5.1,)"
+ordering="AFTER"
+side="BOTH"
+
+[[jei.hide.items]]
+item = "createages:incomplete_andesite_mechanism"
+
+[[jei.hide.items]]
+item = "createages:incomplete_copper_mechanism"

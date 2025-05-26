@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "createages:andesite_machine"
+  },
+  "addition": {
+    "item": "create:chute"
+  },
+  "template": {
+    "item": "create:turntable"
+  },
+  "result": {
+    "id": "create:portable_storage_interface",
+    "count": 1
+  }
+}

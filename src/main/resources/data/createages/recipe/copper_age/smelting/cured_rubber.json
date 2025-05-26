@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "createages:rubber"
+  },
+  "result": {
+    "id": "createages:cured_rubber"
+  }
+}

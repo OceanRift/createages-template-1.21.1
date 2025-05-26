@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "createages:andesite_machine"
+  },
+  "addition": {
+    "item": "create:crushing_wheel"
+  },
+  "template": {
+    "item": "create:turntable"
+  },
+  "result": {
+    "id": "create:mechanical_roller",
+    "count": 1
+  }
+}

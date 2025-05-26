@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "createages:copper_machine"
+  },
+  "addition": {
+    "item": "createages:cured_rubber"
+  },
+  "template": {
+    "item": "create:turntable"
+  },
+  "result": {
+    "id": "create:spout",
+    "count": 1
+  }
+}

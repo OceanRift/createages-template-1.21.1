@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "createages:andesite_machine"
+  },
+  "addition": {
+    "item": "create:andesite_alloy"
+  },
+  "template": {
+    "item": "create:turntable"
+  },
+  "result": {
+    "id": "create:mechanical_plough",
+    "count": 1
+  }
+}

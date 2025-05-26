@@ -1,0 +1,92 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:copper_casing"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "createages:copper_mechanism"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_copper_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_copper_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_copper_mechanism"
+        },
+        {
+          "item": "create:copper_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_copper_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_copper_mechanism"
+        },
+        {
+          "item": "createages:cured_rubber"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_copper_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_copper_mechanism"
+        },
+        {
+          "item": "create:copper_sheet"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_copper_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "createages:incomplete_copper_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "id": "createages:incomplete_copper_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "createages:incomplete_copper_mechanism"
+  }
+}

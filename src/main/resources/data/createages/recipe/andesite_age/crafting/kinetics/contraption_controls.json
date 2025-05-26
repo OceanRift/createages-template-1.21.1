@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "createages",
+  "category": "misc",
+  "pattern": [
+    "B",
+    "C",
+    "I"
+  ],
+  "key": {
+    "B": {
+      "tag": "minecraft:buttons"
+    },
+    "C": {
+      "item": "createages:andesite_mechanism"
+    },
+    "I": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "id": "create:contraption_controls",
+    "components": {},
+    "count": 1
+  }
+}
